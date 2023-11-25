@@ -1,0 +1,15 @@
+{
+  "name": "gtav-mods-json",
+  "version": "1.0.0",
+  "description": "This Is List of Mods which I use while I'm playing GTAV with mods",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
