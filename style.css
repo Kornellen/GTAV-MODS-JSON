@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Poppins:wght@100&family=Roboto+Mono&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -64,6 +66,7 @@ body {
 .content .cosmetics .eup:hover {
   background-color: #b3b51e;
   transform: translateX(30px);
+  box-shadow: 2px 2px 5px black, 0px 0px 5px gray;
 }
 
 .content .cosmetics,
@@ -124,100 +127,50 @@ body {
   margin-left: 50%;
 }
 
-.content .cosmetics .squereTopLeft {
-  position: absolute;
+.content .cosmetics .squereTopLeft,
+.content .scriptstools .squereTopLeft,
+.content .lspdfr .squereTopLeft {
   transform: translateY(-40px);
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  background-color: #b1b1b1;
-}
-.content .cosmetics .squereTopRight {
-  position: absolute;
-  transform: translate(240px, -40px);
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  background-color: #b1b1b1;
-}
-.content .cosmetics .squereDownLeft {
-  position: absolute;
-  transform: translate(240px, 360px);
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  background-color: #b1b1b1;
-}
-.content .cosmetics .squereDownRight {
-  position: absolute;
-  transform: translateY(360px);
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  background-color: #b1b1b1;
 }
 
-.content .scriptstools .squereTopLeft {
-  position: absolute;
-  transform: translateY(-40px);
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  background-color: #b1b1b1;
-}
 .content .scriptstools .squereTopRight {
-  position: absolute;
-  transform: translate(210px, -40px);
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  background-color: #b1b1b1;
+  transform: translate(215px, -40px);
 }
+
+.content .cosmetics .squereTopRight {
+  transform: translate(240px, -40px);
+}
+.content .cosmetics .squereDownLeft {
+  transform: translate(240px, 360px);
+}
+.content .cosmetics .squereDownRight {
+  transform: translateY(360px);
+}
+
 .content .scriptstools .squereDownLeft {
-  position: absolute;
   transform: translate(210px, 375px);
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  background-color: #b1b1b1;
 }
 .content .scriptstools .squereDownRight {
-  position: absolute;
   transform: translateY(375px);
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  background-color: #b1b1b1;
 }
-.content .lspdfr .squereTopLeft {
-  position: absolute;
-  transform: translateY(-40px);
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  background-color: #b1b1b1;
-}
+
 .content .lspdfr .squereTopRight {
-  position: absolute;
   transform: translate(208px, -40px);
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  background-color: #b1b1b1;
 }
 .content .lspdfr .squereDownLeft {
-  position: absolute;
   transform: translate(205px, 1540px);
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  background-color: #b1b1b1;
 }
 .content .lspdfr .squereDownRight {
-  position: absolute;
   transform: translateY(1540px);
+}
+.squereDownLeft,
+.squereTopLeft,
+.squereDownRight,
+.squereTopRight {
+  position: absolute;
+  border: 2px solid black;
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   background-color: #b1b1b1;
 }

@@ -55,7 +55,7 @@ const showDatas = (mods) => {
         <div class="squereDownRight"></div>
       `;
 
-      content += `<br><h3>Callouts</h3><br><br>`;
+      content += `<h3>Callouts</h3>`;
       for (const key in element.lspdfr.lspdfrCallouts) {
         content += `<div class="callout">
           <a href="${element.lspdfr.lspdfrCallouts[key].url}">${element.lspdfr.lspdfrCallouts[key].desc}</a>
