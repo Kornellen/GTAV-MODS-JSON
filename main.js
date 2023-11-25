@@ -1,7 +1,9 @@
 const contentElem = document.querySelector(".content");
+const btnElem = document.querySelector("#btn");
 let content = "";
 
 const getDatas = async () => {
+  btnElem.style.display = "none";
   const response = await fetch("GTAV-mods.json");
   const data = await response.json();
   const mods = data.result;
@@ -14,7 +16,10 @@ const getDatas = async () => {
 const showDatas = (mods) => {
   mods.forEach((element) => {
     if (element.scriptstools) {
-      content += `<div class='scriptstools'><h2>Tools</h2>`;
+      content += `<div class='scriptstools'><h2>Tools</h2><div class="squereTopLeft"></div>
+      <div class="squereTopRight"></div>
+      <div class="squereDownLeft"></div>
+      <div class="squereDownRight"></div>`;
       for (const key in element.scriptstools) {
         content += `<div class="tool">
             <a href="${element.scriptstools[key].url}">${element.scriptstools[key].desc}</a>
@@ -24,13 +29,17 @@ const showDatas = (mods) => {
     }
 
     if (element.cosmetics) {
-      content += `<div class="cosmetics"><h2>Cosmetics</h2>`;
+      content += `<div class="cosmetics"><h2>Cosmetics</h2> <div class="squereTopLeft"></div>
+      <div class="squereTopRight"></div>
+      <div class="squereDownLeft"></div>
+      <div class="squereDownRight"></div>`;
 
       for (const key in element.cosmetics) {
         content += `<div class="cosmetic">
             <a href="${element.cosmetics[key].url}">${element.cosmetics[key].desc}</a>
           </div>`;
       }
+      content += `<h3>Eup</h3>`;
       for (const key in element.cosmetics.eup) {
         content += `<div class="eup">
             <a href="${element.cosmetics.eup[key].url}">${element.cosmetics.eup[key].desc}</a>
@@ -40,9 +49,13 @@ const showDatas = (mods) => {
     }
     if (element.lspdfr) {
       content += `<div class='lspdfr'>
-        <h2>LSPDFR</h2>
+        <h2>LSPDFR</h2><div class="squereTopLeft"></div>
+        <div class="squereTopRight"></div>
+        <div class="squereDownLeft"></div>
+        <div class="squereDownRight"></div>
       `;
 
+      content += `<br><h3>Callouts</h3><br><br>`;
       for (const key in element.lspdfr.lspdfrCallouts) {
         content += `<div class="callout">
           <a href="${element.lspdfr.lspdfrCallouts[key].url}">${element.lspdfr.lspdfrCallouts[key].desc}</a>
@@ -50,8 +63,9 @@ const showDatas = (mods) => {
           `;
       }
 
+      content += `<h3>Scripts</h3>`;
       for (const key in element.lspdfr.lspdfrScripts.Bejojo) {
-        content += `<div class="script">
+        content += `<div class="script"> 
           <a href="${element.lspdfr.lspdfrScripts.Bejojo[key].url}">${element.lspdfr.lspdfrScripts.Bejojo[key].desc}</a>
         </div>`;
       }
@@ -68,4 +82,4 @@ const showDatas = (mods) => {
   contentElem.innerHTML = content;
 };
 
-getDatas();
+btnElem.addEventListener("click", getDatas);

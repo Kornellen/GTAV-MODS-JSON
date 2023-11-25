@@ -17,7 +17,7 @@ body {
 }
 
 .content .scriptstools {
-  height: 45vh;
+  height: 46vh;
 }
 
 .content .scriptstools,
@@ -27,10 +27,13 @@ body {
   margin: 5px;
   border: 5px solid black;
   transition: 2s;
+  border-radius: 20px;
 }
 
 .content .scriptstools .tool:hover {
   background-color: #b3b51e;
+  box-shadow: 2px 2px 2px black, 0px 0px 2px gray;
+  transform: translateX(30px);
 }
 
 .content .scriptstools .tool a {
@@ -44,7 +47,7 @@ body {
 }
 
 .content .cosmetics {
-  height: 40vh;
+  height: 45vh;
 }
 
 .content .cosmetics,
@@ -54,11 +57,13 @@ body {
   margin: 5px;
   padding: 5px;
   transition: 2s;
+  border-radius: 20px;
 }
 
 .content .cosmetics .cosmetic:hover,
 .content .cosmetics .eup:hover {
   background-color: #b3b51e;
+  transform: translateX(30px);
 }
 
 .content .cosmetics,
@@ -74,6 +79,10 @@ body {
   color: #1291b1;
 }
 
+.content .lspdfr {
+  height: 169vh;
+}
+
 .content .lspdfr,
 .content .lspdfr .callout,
 .content .lspdfr .script {
@@ -82,11 +91,13 @@ body {
   padding: 5px;
   transition: 2s;
   color: #b3b51e;
+  border-radius: 20px;
 }
 
 .content .lspdfr .callout:hover,
 .content .lspdfr .script:hover {
   background-color: #b3b51e;
+  transform: translateX(30px);
 }
 
 .content .lspdfr .callout a,
@@ -99,4 +110,114 @@ body {
 .content .lspdfr .script a:hover {
   text-decoration: none;
   color: #1291b1;
+}
+
+.btn button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  font-size: 1rem;
+  background: #4409e6;
+  border: #20036e solid 5px;
+  border-radius: 10px;
+  margin-left: 50%;
+}
+
+.content .cosmetics .squereTopLeft {
+  position: absolute;
+  transform: translateY(-40px);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #b1b1b1;
+}
+.content .cosmetics .squereTopRight {
+  position: absolute;
+  transform: translate(240px, -40px);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #b1b1b1;
+}
+.content .cosmetics .squereDownLeft {
+  position: absolute;
+  transform: translate(240px, 360px);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #b1b1b1;
+}
+.content .cosmetics .squereDownRight {
+  position: absolute;
+  transform: translateY(360px);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #b1b1b1;
+}
+
+.content .scriptstools .squereTopLeft {
+  position: absolute;
+  transform: translateY(-40px);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #b1b1b1;
+}
+.content .scriptstools .squereTopRight {
+  position: absolute;
+  transform: translate(210px, -40px);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #b1b1b1;
+}
+.content .scriptstools .squereDownLeft {
+  position: absolute;
+  transform: translate(210px, 375px);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #b1b1b1;
+}
+.content .scriptstools .squereDownRight {
+  position: absolute;
+  transform: translateY(375px);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #b1b1b1;
+}
+.content .lspdfr .squereTopLeft {
+  position: absolute;
+  transform: translateY(-40px);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #b1b1b1;
+}
+.content .lspdfr .squereTopRight {
+  position: absolute;
+  transform: translate(208px, -40px);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #b1b1b1;
+}
+.content .lspdfr .squereDownLeft {
+  position: absolute;
+  transform: translate(205px, 1540px);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #b1b1b1;
+}
+.content .lspdfr .squereDownRight {
+  position: absolute;
+  transform: translateY(1540px);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #b1b1b1;
 }
