@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.5rem;
+  color: #fff;
+  background-image: linear-gradient(to Right, #12c9a8, #1215c9);
+}
+
+.content {
+  text-align: center;
+  padding: 5px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content .scriptstools {
+  height: 45vh;
+}
+
+.content .scriptstools,
+.content .scriptstools .tool {
+  color: #b3b51e;
+  padding: 5px;
+  margin: 5px;
+  border: 5px solid black;
+  transition: 2s;
+}
+
+.content .scriptstools .tool:hover {
+  background-color: #b3b51e;
+}
+
+.content .scriptstools .tool a {
+  text-decoration: none;
+  color: #b3b51e;
+  transition: 2s;
+}
+
+.content .scriptstools .tool a:hover {
+  color: #1291b1;
+}
+
+.content .cosmetics {
+  height: 40vh;
+}
+
+.content .cosmetics,
+.content .cosmetics .cosmetic,
+.content .cosmetics .eup {
+  border: 5px solid black;
+  margin: 5px;
+  padding: 5px;
+  transition: 2s;
+}
+
+.content .cosmetics .cosmetic:hover,
+.content .cosmetics .eup:hover {
+  background-color: #b3b51e;
+}
+
+.content .cosmetics,
+.content .cosmetics .cosmetic a,
+.content .cosmetics .eup a {
+  text-decoration: none;
+  color: #b3b51e;
+  transition: 2s;
+}
+
+.content .cosmetics .cosmetic a:hover,
+.content .cosmetics .eup a:hover {
+  color: #1291b1;
+}
+
+.content .lspdfr,
+.content .lspdfr .callout,
+.content .lspdfr .script {
+  border: 5px solid black;
+  margin: 5px;
+  padding: 5px;
+  transition: 2s;
+  color: #b3b51e;
+}
+
+.content .lspdfr .callout:hover,
+.content .lspdfr .script:hover {
+  background-color: #b3b51e;
+}
+
+.content .lspdfr .callout a,
+.content .lspdfr .script a {
+  text-decoration: none;
+  color: #b3b51e;
+  transition: 2s;
+}
+.content .lspdfr .callout a:hover,
+.content .lspdfr .script a:hover {
+  text-decoration: none;
+  color: #1291b1;
+}

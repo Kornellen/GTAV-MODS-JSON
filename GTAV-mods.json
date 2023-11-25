@@ -1,0 +1,179 @@
+{
+  "result": [
+    {
+      "scriptstools": {
+        "ScritpHook": {
+          "url": "https://www.gta5-mods.com/tools/script-hook-v",
+          "desc": "ScritpHook"
+        },
+        "ScritpHookNET": {
+          "url": "https://www.gta5-mods.com/tools/scripthookv-net",
+          "desc": "ScriptHook .NET"
+        },
+        "Menyoo": {
+          "url": "https://www.gta5-mods.com/scripts/menyoo-pc-sp",
+          "desc": "Menyoo"
+        },
+        "Gameconfig": {
+          "url": "https://www.gta5-mods.com/misc/gta-5-gameconfig-300-cars",
+          "desc": "GameConfig"
+        },
+        "LenML": {
+          "url": "https://www.lcpdfr.com/downloads/gta5mods/misc/25437-lennys-mod-loader/",
+          "desc": "Lenny's Mod Loader"
+        },
+        "Rage-NativeUI": {
+          "url": "https://github.com/alexguirre/RAGENativeUI/releases",
+          "desc": "Rage-NativeUI"
+        },
+        "LSPDFR": {
+          "url": "https://www.lcpdfr.com/downloads/gta5mods/g17media/7792-lspd-first-response/",
+          "desc": "LSPDFR"
+        }
+      }
+    },
+    {
+      "cosmetics": {
+        "ImprovedFemaleFaces": {
+          "url": "https://www.gta5-mods.com/player/improving-all-mp-female-characters-appearance-1-0",
+          "desc": "Improved Female Faces"
+        },
+        "eup": {
+          "eupMenu": {
+            "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/13245-eup-menu/",
+            "desc": "EUP-Menu"
+          },
+          "eupLO": {
+            "url": "https://www.lcpdfr.com/downloads/gta5mods/character/8151-emergency-uniforms-pack-law-order/",
+            "desc": "EUP L&0"
+          },
+          "eupSR": {
+            "url": "https://www.lcpdfr.com/downloads/gta5mods/character/16256-emergency-uniforms-pack-serve-rescue/",
+            "desc": "EUP S&R"
+          },
+          "eupBasic": {
+            "url": "https://www.lcpdfr.com/downloads/gta5mods/datafile/22400-eupfr-basic-configurations/",
+            "desc": "EUP Basic"
+          }
+        }
+      }
+    },
+    {
+      "lspdfr": {
+        "lspdfrCallouts": {
+          "AssortetCallouts": {
+            "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/9689-assorted-callouts-bank-heist-store-robbery-more/",
+            "desc": "Assortet-Callouts"
+          },
+          "UnitedCallouts": {
+            "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/20730-unitedcallouts-robbery-drugs-burglary-more/",
+            "desc": "United-Callouts"
+          },
+          "SuperCallouts": {
+            "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/23995-supercallouts/",
+            "desc": "Super-Callouts"
+          },
+          "TypicalCallouts": {
+            "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/29152-typical-callouts/",
+            "desc": "Typical-Callouts"
+          },
+          "FBICallouts": {
+            "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/31249-fbi-callouts-beta/",
+            "desc": "FBI-Callouts"
+          },
+          "ForestryCallouts": {
+            "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/34663-forestry-callouts/",
+            "desc": "Forestry-Callouts"
+          },
+          "CodeRedCallouts": {
+            "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/10947-code-red-callouts-297-stolen-tanker-vicious-dog-more/",
+            "desc": "Code-Red-Callouts"
+          },
+          "CityCallouts": {
+            "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/29133-city-callouts-by-connorftw/",
+            "desc": "City-Callouts"
+          }
+        },
+        "lspdfrScripts": {
+          "Bejojo": {
+            "StopThePed": {
+              "url": "https://www.bejoijo.com/post/stop-the-ped",
+              "desc": "StopThePed"
+            },
+            "UltimateBackup": {
+              "url": "https://www.bejoijo.com/post/ultimate-backup",
+              "desc": "UltimateBackup"
+            },
+            "CompuLite": {
+              "url": "https://www.bejoijo.com/post/compulite",
+              "desc": "CompuLite"
+            }
+          },
+          "lcpdfr": {
+            "PLD": {
+              "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/7706-player-location-display/",
+              "desc": "PLD"
+            },
+            "ELS": {
+              "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/13865-emergency-lighting-system/",
+              "desc": "ELS"
+            },
+            "TrafficPolicer": {
+              "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/8303-traffic-policer-breathalyzer-traffic-offences-speed-detection-more/",
+              "desc": "Traffic-Policer"
+            },
+            "ArrestManager": {
+              "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/8107-arrest-manager-grab-peds-more-jail-points-prisoner-transport-more/",
+              "desc": "Arrest-Manager"
+            },
+            "LSPDFRPlus": {
+              "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/11930-lspdfr-better-traffic-stops-court-system/",
+              "desc": "LSPDFRPlus"
+            },
+            "BetterEMS": {
+              "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/11647-better-ems/",
+              "desc": "BetterEMS"
+            },
+            "DeadlyWeapon": {
+              "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/27453-deadly-weapons-guns-are-actually-dangerous/",
+              "desc": "Deadly-Weapon"
+            },
+
+            "DamageTaker": {
+              "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/42767-damage-tracker-framework/",
+              "desc": "Damage-Taker"
+            },
+            "CalloutsInterface": {
+              "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/37828-callout-interface/",
+              "desc": "Callouts-Interface"
+            },
+            "CustomPullover": {
+              "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/27260-custom-pullover/",
+              "desc": "Custom-Pullover"
+            },
+            "MoreRadioChatter": {
+              "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/13907-more-radio-chatter/",
+              "desc": "More-Radio-Chatter"
+            },
+            "ClearTheWay": {
+              "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/10626-clearthewayv/",
+              "desc": "ClearTheWay"
+            },
+            "SceneManager": {
+              "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/27954-scene-manager/",
+              "desc": "SceneManager"
+            },
+            "SirenSettingLimitAdjuster": {
+              "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/28560-sirensetting-limit-adjuster/",
+              "desc": "SirenSetting"
+            },
+            "KTFDO": {
+              "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/13021-ktfdo-keep-the-f-door-open/",
+              "desc": "KTFDO"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
