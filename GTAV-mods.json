@@ -120,11 +120,11 @@
             },
             "TrafficPolicer": {
               "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/8303-traffic-policer-breathalyzer-traffic-offences-speed-detection-more/",
-              "desc": "Traffic-Policer"
+              "desc": "TrafficPolicer"
             },
             "ArrestManager": {
               "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/8107-arrest-manager-grab-peds-more-jail-points-prisoner-transport-more/",
-              "desc": "Arrest-Manager"
+              "desc": "ArrestManager"
             },
             "LSPDFRPlus": {
               "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/11930-lspdfr-better-traffic-stops-court-system/",
@@ -136,24 +136,24 @@
             },
             "DeadlyWeapon": {
               "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/27453-deadly-weapons-guns-are-actually-dangerous/",
-              "desc": "Deadly-Weapon"
+              "desc": "DeadlyWeapon"
             },
 
             "DamageTaker": {
               "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/42767-damage-tracker-framework/",
-              "desc": "Damage-Taker"
+              "desc": "DamageTaker"
             },
             "CalloutsInterface": {
               "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/37828-callout-interface/",
-              "desc": "Callouts-Interface"
+              "desc": "CalloutsInterface"
             },
             "CustomPullover": {
               "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/27260-custom-pullover/",
-              "desc": "Custom-Pullover"
+              "desc": "CustomPullover"
             },
             "MoreRadioChatter": {
               "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/13907-more-radio-chatter/",
-              "desc": "More-Radio-Chatter"
+              "desc": "MoreRadioChatter"
             },
             "ClearTheWay": {
               "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/10626-clearthewayv/",
