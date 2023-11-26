@@ -22,7 +22,7 @@ const showDatas = (mods) => {
       <div class="squereDownRight"></div>`;
       for (const key in element.scriptstools) {
         content += `<div class="tool">
-            <a href="${element.scriptstools[key].url} target="_blank"">${element.scriptstools[key].desc}</a>
+            <a href="${element.scriptstools[key].url}" target="_blank">${element.scriptstools[key].desc}</a>
           </div>`;
       }
       content += "</div>";
@@ -36,13 +36,13 @@ const showDatas = (mods) => {
 
       for (const key in element.cosmetics) {
         content += `<div class="cosmetic">
-            <a href="${element.cosmetics[key].url} target="_blank"">${element.cosmetics[key].desc}</a>
+            <a href="${element.cosmetics[key].url}" target="_blank">${element.cosmetics[key].desc}</a>
           </div>`;
       }
       content += `<h3>Eup</h3>`;
       for (const key in element.cosmetics.eup) {
         content += `<div class="eup">
-            <a href="${element.cosmetics.eup[key].url} target="_blank"">${element.cosmetics.eup[key].desc}</a>
+            <a href="${element.cosmetics.eup[key].url}" target="_blank">${element.cosmetics.eup[key].desc}</a>
           </div>`;
       }
       content += "</div>";
@@ -58,7 +58,7 @@ const showDatas = (mods) => {
       content += `<h3>Callouts</h3>`;
       for (const key in element.lspdfr.lspdfrCallouts) {
         content += `<div class="callout">
-          <a href="${element.lspdfr.lspdfrCallouts[key].url} target="_blank"">${element.lspdfr.lspdfrCallouts[key].desc}</a>
+          <a href="${element.lspdfr.lspdfrCallouts[key].url}" target="_blank">${element.lspdfr.lspdfrCallouts[key].desc}</a>
           </div>
           `;
       }
@@ -66,12 +66,12 @@ const showDatas = (mods) => {
       content += `<h3>Scripts</h3>`;
       for (const key in element.lspdfr.lspdfrScripts.Bejojo) {
         content += `<div class="script"> 
-          <a href="${element.lspdfr.lspdfrScripts.Bejojo[key].url} target="_blank"">${element.lspdfr.lspdfrScripts.Bejojo[key].desc}</a>
+          <a href="${element.lspdfr.lspdfrScripts.Bejojo[key].url}"target="_blank">${element.lspdfr.lspdfrScripts.Bejojo[key].desc}</a>
         </div>`;
       }
       for (const key in element.lspdfr.lspdfrScripts.lcpdfr) {
         content += `<div class="script">
-          <a href="${element.lspdfr.lspdfrScripts.lcpdfr[key].url} target="_blank"">${element.lspdfr.lspdfrScripts.lcpdfr[key].desc}</a>
+          <a href="${element.lspdfr.lspdfrScripts.lcpdfr[key].url}" target="_blank">${element.lspdfr.lspdfrScripts.lcpdfr[key].desc}</a>
         </div>`;
       }
 
