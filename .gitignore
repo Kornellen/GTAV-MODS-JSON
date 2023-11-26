@@ -1,3 +1,5 @@
 .vscode/
 apiKey.json
 favicon.png
+.gitignore
+.gitattributes
