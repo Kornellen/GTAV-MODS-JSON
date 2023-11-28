@@ -120,12 +120,14 @@
             },
             "TrafficPolicer": {
               "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/8303-traffic-policer-breathalyzer-traffic-offences-speed-detection-more/",
+
               "desc": "Traffic Policer"
             },
             "ArrestManager": {
               "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/8107-arrest-manager-grab-peds-more-jail-points-prisoner-transport-more/",
               "desc": "Arrest Manager"
             },
+
             "LSPDFRPlus": {
               "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/11930-lspdfr-better-traffic-stops-court-system/",
               "desc": "LSPDFR+"
@@ -136,11 +138,13 @@
             },
             "DeadlyWeapon": {
               "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/27453-deadly-weapons-guns-are-actually-dangerous/",
+
               "desc": "Deadly Weapon"
             },
 
             "DamageTaker": {
               "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/42767-damage-tracker-framework/",
+
               "desc": "Damage Taker"
             },
             "CalloutsInterface": {
@@ -151,9 +155,10 @@
               "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/27260-custom-pullover/",
               "desc": "Custom Pullover"
             },
+
             "MoreRadioChatter": {
               "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/13907-more-radio-chatter/",
-              "desc": "More Radio Chatter"
+              "desc": "MoreRadioChatter"
             },
             "ClearTheWay": {
               "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/10626-clearthewayv/",
