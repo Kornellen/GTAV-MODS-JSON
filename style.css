@@ -19,7 +19,9 @@ body {
 }
 
 .content .scriptstools {
+  position: relative;
   height: 46vh;
+  box-shadow: 2px 2px 5px black, 0px 0px 5px gray;
 }
 
 .content .scriptstools,
@@ -50,6 +52,7 @@ body {
 
 .content .cosmetics {
   height: 45vh;
+  box-shadow: 2px 2px 5px black, 0px 0px 5px gray;
 }
 
 .content .cosmetics,
@@ -84,6 +87,7 @@ body {
 
 .content .lspdfr {
   height: 169vh;
+  box-shadow: 2px 2px 5px black, 0px 0px 5px gray;
 }
 
 .content .lspdfr,
@@ -101,6 +105,7 @@ body {
 .content .lspdfr .script:hover {
   background-color: #b3b51e;
   transform: translateX(30px);
+  box-shadow: 2px 2px 5px black, 0px 0px 5px gray;
 }
 
 .content .lspdfr .callout a,
