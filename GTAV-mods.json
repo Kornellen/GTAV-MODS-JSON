@@ -127,7 +127,6 @@
               "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/8107-arrest-manager-grab-peds-more-jail-points-prisoner-transport-more/",
               "desc": "Arrest Manager"
             },
-
             "LSPDFRPlus": {
               "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/11930-lspdfr-better-traffic-stops-court-system/",
               "desc": "LSPDFR+"
@@ -177,6 +176,24 @@
               "desc": "KTFDO"
             }
           }
+        }
+      },
+      "Vechicals": {
+        "LSSD Pack": {
+          "url": "https://www.gta5-mods.com/vehicles/los-santos-county-sheriff-department-pack",
+          "desc": "LSSD Pack"
+        },
+        "FIB Pack": {
+          "url": "https://www.gta5-mods.com/vehicles/fib-police",
+          "desc": "FIB Pack"
+        },
+        "SAHP Pack": {
+          "url": "https://www.gta5-mods.com/vehicles/sahp",
+          "desc": "SAHP Pack"
+        },
+        "NOOSE Pack": {
+          "url": "https://www.gta5-mods.com/vehicles/noose",
+          "desc": "NOOSE Pack"
         }
       }
     }

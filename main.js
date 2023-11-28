@@ -25,7 +25,7 @@ const showDatas = (mods) => {
 
             <a href="${element.scriptstools[key].url}"><b>${element.scriptstools[key].desc}</b></a>
 
-            <a href="${element.scriptstools[key].url}" target="_blank">${element.scriptstools[key].desc}</a>
+           
 
           </div>`;
       }
@@ -43,7 +43,7 @@ const showDatas = (mods) => {
 
             <a href="${element.cosmetics[key].url}"><b>${element.cosmetics[key].desc}</b></a>
 
-            <a href="${element.cosmetics[key].url}" target="_blank">${element.cosmetics[key].desc}</a>
+          
 
           </div>`;
       }
@@ -52,7 +52,7 @@ const showDatas = (mods) => {
         content += `<div class="eup">
 
             <a href="${element.cosmetics.eup[key].url}"><b>${element.cosmetics.eup[key].desc}</b></a>
-           <a href="${element.cosmetics.eup[key].url}" target="_blank">${element.cosmetics.eup[key].desc}</a>
+           
 
           </div>`;
       }
@@ -72,7 +72,7 @@ const showDatas = (mods) => {
 
           <a href="${element.lspdfr.lspdfrCallouts[key].url}"><b>${element.lspdfr.lspdfrCallouts[key].desc}</b></a>
 
-          <a href="${element.lspdfr.lspdfrCallouts[key].url}" target="_blank">${element.lspdfr.lspdfrCallouts[key].desc}</a>
+          
 
           </div>
           `;
@@ -83,18 +83,30 @@ const showDatas = (mods) => {
         content += `<div class="script"> 
 
           <a href="${element.lspdfr.lspdfrScripts.Bejojo[key].url}"><b>${element.lspdfr.lspdfrScripts.Bejojo[key].desc}</b></a>
-
-          <a href="${element.lspdfr.lspdfrScripts.Bejojo[key].url}"target="_blank">${element.lspdfr.lspdfrScripts.Bejojo[key].desc}</a>
-
         </div>`;
       }
       for (const key in element.lspdfr.lspdfrScripts.lcpdfr) {
         content += `<div class="script">
 
           <a href="${element.lspdfr.lspdfrScripts.lcpdfr[key].url}"><b>${element.lspdfr.lspdfrScripts.lcpdfr[key].desc}</b></a>
+        </div>`;
+      }
 
-          <a href="${element.lspdfr.lspdfrScripts.lcpdfr[key].url}" target="_blank">${element.lspdfr.lspdfrScripts.lcpdfr[key].desc}</a>
+      content += `</div>`;
+    }
 
+    if (element.Vechicals) {
+      content += `<div class='vechicals'>
+        <h2>Vechicals</h2><div class="squereTopLeft"></div>
+        <div class="squereTopRight"></div>
+        <div class="squereDownLeft"></div>
+        <div class="squereDownRight"></div>
+      `;
+
+      for (const key in element.Vechicals) {
+        content += `<div class="vechical">
+          <a href="${element.Vechicals[key].url}">${element.Vechicals[key].desc}</a>
+          <a href="${element.Vechicals[key].url}">${element.Vechicals[key].desc}</a>
         </div>`;
       }
 

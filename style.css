@@ -120,6 +120,15 @@ body {
   color: #1291b1;
 }
 
+.content .vechicals {
+  border: 5px solid black;
+  margin: 5px;
+  padding: 5px;
+  transition: 2s;
+  color: #b3b51e;
+  border-radius: 20px;
+}
+
 .btn button {
   display: flex;
   justify-content: center;
