@@ -11,6 +11,16 @@ body {
   background-image: linear-gradient(to Right, #12c9a8, #1215c9);
 }
 
+a {
+  text-decoration: none;
+  color: #b3b51e;
+  transition: 2s;
+}
+
+a:hover {
+  color: #1291b1;
+}
+
 .content {
   text-align: center;
   padding: 5px;
@@ -24,65 +34,19 @@ body {
   box-shadow: 2px 2px 5px black, 0px 0px 5px gray;
 }
 
-.content .scriptstools,
-.content .scriptstools .tool {
-  color: #b3b51e;
-  padding: 5px;
-  margin: 5px;
-  border: 5px solid black;
-  transition: 2s;
-  border-radius: 20px;
-}
-
-.content .scriptstools .tool:hover {
-  background-color: #b3b51e;
-  box-shadow: 2px 2px 2px black, 0px 0px 2px gray;
-  transform: translateX(30px);
-}
-
-.content .scriptstools .tool a {
-  text-decoration: none;
-  color: #b3b51e;
-  transition: 2s;
-}
-
-.content .scriptstools .tool a:hover {
-  color: #1291b1;
-}
-
 .content .cosmetics {
   height: 45vh;
   box-shadow: 2px 2px 5px black, 0px 0px 5px gray;
 }
 
-.content .cosmetics,
-.content .cosmetics .cosmetic,
-.content .cosmetics .eup {
+.content
+  div:not(.squereDownLeft, .squereTopRight, .squereDownRight, .squereTopLeft) {
   border: 5px solid black;
   margin: 5px;
   padding: 5px;
   transition: 2s;
   border-radius: 20px;
-}
-
-.content .cosmetics .cosmetic:hover,
-.content .cosmetics .eup:hover {
-  background-color: #b3b51e;
-  transform: translateX(30px);
-  box-shadow: 2px 2px 5px black, 0px 0px 5px gray;
-}
-
-.content .cosmetics,
-.content .cosmetics .cosmetic a,
-.content .cosmetics .eup a {
-  text-decoration: none;
   color: #b3b51e;
-  transition: 2s;
-}
-
-.content .cosmetics .cosmetic a:hover,
-.content .cosmetics .eup a:hover {
-  color: #1291b1;
 }
 
 .content .lspdfr {
@@ -90,43 +54,15 @@ body {
   box-shadow: 2px 2px 5px black, 0px 0px 5px gray;
 }
 
-.content .lspdfr,
-.content .lspdfr .callout,
-.content .lspdfr .script {
-  border: 5px solid black;
-  margin: 5px;
-  padding: 5px;
-  transition: 2s;
-  color: #b3b51e;
-  border-radius: 20px;
-}
-
 .content .lspdfr .callout:hover,
-.content .lspdfr .script:hover {
+.content .lspdfr .script:hover,
+.content .cosmetics .cosmetic:hover,
+.content .cosmetics .eup:hover,
+.content .scriptstools .tool:hover,
+.content .vechicals .vechical:hover {
   background-color: #b3b51e;
   transform: translateX(30px);
   box-shadow: 2px 2px 5px black, 0px 0px 5px gray;
-}
-
-.content .lspdfr .callout a,
-.content .lspdfr .script a {
-  text-decoration: none;
-  color: #b3b51e;
-  transition: 2s;
-}
-.content .lspdfr .callout a:hover,
-.content .lspdfr .script a:hover {
-  text-decoration: none;
-  color: #1291b1;
-}
-
-.content .vechicals {
-  border: 5px solid black;
-  margin: 5px;
-  padding: 5px;
-  transition: 2s;
-  color: #b3b51e;
-  border-radius: 20px;
 }
 
 .btn button {
@@ -143,7 +79,8 @@ body {
 
 .content .cosmetics .squereTopLeft,
 .content .scriptstools .squereTopLeft,
-.content .lspdfr .squereTopLeft {
+.content .lspdfr .squereTopLeft,
+.content .vechicals .squereTopLeft {
   transform: translateY(-40px);
 }
 
@@ -177,6 +114,33 @@ body {
 .content .lspdfr .squereDownRight {
   transform: translateY(1540px);
 }
+
+.content .vechicals {
+  height: 30vh;
+  width: 10vw;
+}
+
+.content .vechicals .vechical {
+  border: 5px solid black;
+  margin: 5px;
+  padding: 5px;
+  transition: 2s;
+  color: #b3b51e;
+  border-radius: 20px;
+}
+
+.content .vechicals .squereDownLeft {
+  transform: translateY(225px);
+}
+
+.content .vechicals .squereTopRight {
+  transform: translate(175px, -40px);
+}
+
+.content .vechicals .squereDownRight {
+  transform: translate(175px, 225px);
+}
+
 .squereDownLeft,
 .squereTopLeft,
 .squereDownRight,
