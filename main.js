@@ -105,6 +105,7 @@ const showDatas = (mods) => {
 
       for (const key in element.Vechicals) {
         content += `<div class="vechical">
+        
           <a href="${element.Vechicals[key].url}">${element.Vechicals[key].desc}</a>
         </div>`;
       }
