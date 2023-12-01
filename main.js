@@ -8,8 +8,6 @@ const getDatas = async () => {
   const data = await response.json();
   const mods = data.result;
 
-  console.log(mods);
-
   showDatas(mods);
 };
 
