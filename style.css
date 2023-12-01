@@ -8,7 +8,8 @@
 body {
   font-size: 1.5rem;
   color: #fff;
-  background-image: linear-gradient(to Right, #12c9a8, #1215c9);
+  background-image: linear-gradient(to Right, #1261c9, #1215c9);
+  font-size: bold;
 }
 
 a {
@@ -19,6 +20,11 @@ a {
 
 a:hover {
   color: #1291b1;
+}
+
+.container {
+  position: absolute;
+  right: 25%;
 }
 
 .content {
@@ -35,6 +41,7 @@ a:hover {
 }
 
 .content .cosmetics {
+  position: relative;
   height: 45vh;
   box-shadow: 2px 2px 5px black, 0px 0px 5px gray;
 }
@@ -47,9 +54,11 @@ a:hover {
   transition: 2s;
   border-radius: 20px;
   color: #b3b51e;
+  background-color: #41219c;
 }
 
 .content .lspdfr {
+  position: relative;
   height: 169vh;
   box-shadow: 2px 2px 5px black, 0px 0px 5px gray;
 }
@@ -77,10 +86,11 @@ a:hover {
   margin-left: 50%;
 }
 
-.content .cosmetics .squereTopLeft,
-.content .scriptstools .squereTopLeft,
-.content .lspdfr .squereTopLeft,
-.content .vechicals .squereTopLeft {
+.cosmetics .squereTopLeft,
+.scriptstools .squereTopLeft,
+.lspdfr .squereTopLeft,
+.vechicals .squereTopLeft {
+  position: absolute;
   transform: translateY(-40px);
 }
 
