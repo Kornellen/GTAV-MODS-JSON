@@ -25,8 +25,6 @@ const showDatas = (mods) => {
 
             <a href="${element.scriptstools[key].url}"><b>${element.scriptstools[key].desc}</b></a>
 
-           
-
           </div>`;
       }
       content += "</div>";
@@ -43,8 +41,6 @@ const showDatas = (mods) => {
 
             <a href="${element.cosmetics[key].url}"><b>${element.cosmetics[key].desc}</b></a>
 
-          
-
           </div>`;
       }
       content += `<h3>Eup</h3>`;
@@ -52,7 +48,6 @@ const showDatas = (mods) => {
         content += `<div class="eup">
 
             <a href="${element.cosmetics.eup[key].url}"><b>${element.cosmetics.eup[key].desc}</b></a>
-           
 
           </div>`;
       }
@@ -71,8 +66,6 @@ const showDatas = (mods) => {
         content += `<div class="callout">
 
           <a href="${element.lspdfr.lspdfrCallouts[key].url}"><b>${element.lspdfr.lspdfrCallouts[key].desc}</b></a>
-
-          
 
           </div>
           `;
@@ -105,7 +98,7 @@ const showDatas = (mods) => {
 
       for (const key in element.Vechicals) {
         content += `<div class="vechical">
-        
+
           <a href="${element.Vechicals[key].url}">${element.Vechicals[key].desc}</a>
         </div>`;
       }
