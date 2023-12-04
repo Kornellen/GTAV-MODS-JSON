@@ -5,11 +5,15 @@
   padding: 0;
 }
 
+font {
+  outline: #000;
+}
+
 body {
   font-size: 1.5rem;
   color: #fff;
-  background-image: linear-gradient(to Right, #1261c9, #1215c9);
-  font-size: bold;
+  background: linear-gradient(to left, #1261c9, #242654);
+  font-weight: bold;
 }
 
 a {
@@ -23,11 +27,12 @@ a:hover {
 }
 
 .container {
-  position: absolute;
-  right: 25%;
+  position: relative;
 }
 
 .content {
+  position: relative;
+  top: 50px;
   text-align: center;
   padding: 5px;
   display: flex;
@@ -35,13 +40,15 @@ a:hover {
 }
 
 .content .scriptstools {
-  position: relative;
+  position: absolute;
+  left: 100px;
   height: 46vh;
   box-shadow: 2px 2px 5px black, 0px 0px 5px gray;
 }
 
 .content .cosmetics {
-  position: relative;
+  position: absolute;
+  right: 500px;
   height: 45vh;
   box-shadow: 2px 2px 5px black, 0px 0px 5px gray;
 }
@@ -58,7 +65,8 @@ a:hover {
 }
 
 .content .lspdfr {
-  position: relative;
+  position: absolute;
+  right: 100px;
   height: 169vh;
   box-shadow: 2px 2px 5px black, 0px 0px 5px gray;
 }
@@ -126,6 +134,8 @@ a:hover {
 }
 
 .content .vechicals {
+  position: absolute;
+  left: 500px;
   height: 30vh;
   width: 10vw;
 }
