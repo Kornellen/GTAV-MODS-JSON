@@ -2,6 +2,16 @@ const contentElem = document.querySelector(".content");
 const btnElem = document.querySelector("#btn");
 let content = "";
 
+const createCookie = () => {
+  let $user = prompt("Enter your username: ");
+  if ($user == null || $user == "") {
+    window.alert("User cancelled Cookie Proccess!");
+    close();
+  } else {
+    document.cookie = `user=${$user}`;
+  }
+};
+
 const getDatas = async () => {
   btnElem.style.display = "none";
   const response = await fetch("GTAV-mods.json");
@@ -108,3 +118,4 @@ const showDatas = (mods) => {
 };
 
 btnElem.addEventListener("click", getDatas);
+createCookie();
